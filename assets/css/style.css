@@ -1,31 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-  font-family: "Poppins:ital";
+  font-family: "Poppins Ital";
   background: url(./img/sfondo.png);
+  padding: 1rem;
+}
+* {
+  box-sizing: border-box;
 }
 header {
   background-color: rgb(9, 227, 243);
-  margin-inline: auto;
+  margin: 0 auto;
   text-align: center;
-  max-width: 250px;
   padding: 1rem;
   border-radius: 9px;
   border-bottom: 4px solid rgba(168, 75, 75, 0.26);
+  box-shadow: 0 3px 3px #444;
   margin-bottom: 12px;
   margin-top: 12px;
 }
+
+ol {
+  list-style: decimal;
+}
+ul {
+  list-style: disc;
+}
+
 main {
   background-color: white;
-  max-width: 250px;
-  text-align: center;
+  text-align: left;
   margin: auto;
 }
+
+main h1 {
+  font-size: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.spaziatura {
+  padding-top: 1rem;
+}
+.colorazionegrigia {
+  color: grey;
+}
+
 footer {
   background-image: linear-gradient(#005566, #384337);
   margin-inline: auto;
   text-align: center;
-  max-width: 250px;
   padding: 1rem;
   border-radius: 9px;
   border-bottom: 4px solid rgba(2, 90, 53, 0.26);
